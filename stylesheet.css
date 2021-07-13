@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Shrikhand',cursive;
+    background:url(image/background.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+nav{
+    margin-top:-15px;
+    position:fixed;
+    background:black;
+    width:110%;
+    height:100px;
+    z-index: 1;
+
+}
+#place{
+    position:fixed;
+    height:50px;
+    width:500px;
+    margin-left:70rem;
+    top:1rem;
+    font-size:30px;
+}
+#placebutton{
+    font-family:'Shrikhand',cursive;
+    position:fixed;
+    height: 55px;
+    width:200px;
+    margin-left: 103rem;
+    top: 1rem;
+    font-size: 25px;
+    background: linear-gradient(54.7deg,  #6847fd 12%,#4ee968 100%);
+}
+#celsius,#farenheit{
+    font-family: 'Shrikhand',cursive;
+    position:fixed;
+    height: 55px;
+    width:100px;
+    margin-left: 49rem;
+    top: 1rem;
+    font-size: 25px;
+    border:2px solid black;
+}
+#farenheit{
+  
+    margin-left: 55.1rem;
+}
+#typetemp{
+    position: fixed;
+    color:white;
+    font-size:50px;
+    left:42rem;
+    top:0.7rem;
+    
+}
+#city{
+    position:fixed;
+    color:rgb(54, 247, 37);
+    font-size:50px;
+    left:28rem;
+    top:0.5rem;
+    
+}
+.info{
+    position:fixed;
+    color:white;
+    font-size:30px;
+    left:1rem;
+    top:0.5rem;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+.parent{
+    display:grid;
+    position:relative;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,100px);
+    background:black;
+    top:-103rem;
+    height:530px;
+    width:100%;
+    grid-gap: 0px;
+    border: 2px solid green;
+    margin-top:20%;
+    margin-left:2px;
+
+
+}
+.parent>div{
+    margin-left:20px;
+    margin-top: 20px;
+    background: linear-gradient(54.7deg,  orange 40%,#08f02f 100%);
+    color:black;
+    
+    height: 70px;
+    width: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+
+}
+.sunriseimg,.sunsetimg{
+    display:inline;
+    height: 200px;
+    width: 200px;
+    
+}
+.sunriseimg{
+    margin-top: 60px;
+}
+.sunsetimg{
+    position: relative;
+    height: 130px;
+    width: 130px;
+    top:-45px;
+    left:10px;
+}
+#Sunrise,#Sunset{
+    position: relative;
+    display:inline;
+    font-size:30px;
+}
+#Sunrise{
+    left:-17rem;
+}
+#Sunset{
+   
+    left:-11rem;
+}
+.tempimg{
+    position:relative;
+    left: 40rem;
+    top:-15em;
+    height:500px;
+    width:500px;
+
+}
+#temperature{
+    position:relative;
+    left: 57rem;
+    top:-11em;
+    font-family: 'Shrikhand',cursive;
+    font-size:40px;
+
+}
+
+.rain{
+    position:relative;
+    top:-31.5rem;
+    height:130px;
+    width:130px;
+    margin-left:29px;
+}
+#condition{
+    position: relative;
+    top:-36rem;
+    left:4rem;
+}
+
+.wind{
+    position:relative;
+    top:-41.5rem;
+    height:130px;
+    width:130px;
+    margin-left:15rem;
+}
+#wind{
+    position:relative;
+    top:-41.5rem;
+    
+    margin-left:15rem;
+    font-size:20px;
+
+}
+
+.pressure{
+    position:relative;
+    top:-67rem;
+    height:130px;
+    width:130px;
+    margin-left:92rem;
+}
+#pressure{
+    position:relative;
+    top:-67rem;
+  
+    margin-left:93rem;
+    font-size:20px;
+
+}
+
+
+.humidity{
+    position:relative;
+    top:-77.3rem;
+    height:120px;
+    width:130px;
+    margin-left:105rem;
+}
+#humidity{
+    position:relative;
+    top:-77rem;
+   
+    margin-left:107.5rem;
+    font-size:20px;
+
+}
+
+.precipitation{
+    position:relative;
+    top:-70rem;
+    height:90px;
+    width:132px;
+    margin-left:92rem;
+}
+#precipitation{
+    position:relative;
+    top:-69rem;
+   
+    margin-left:94rem;
+    font-size:20px;
+
+}
+
+.visibility{
+    position:relative;
+    top:-78rem;
+    height:90px;
+    width:132px;
+    margin-left:105rem;
+}
+#visibility{
+    position:relative;
+    top:-77rem;
+   
+    margin-left:107.2rem;
+    font-size:20px;
+
+}
+#highest,#lowest{
+    position:relative;
+    top:-83rem;
+    font-size: 25px;
+    margin-left:53rem;
+}
+#lowest{
+    top:-85.4rem;
+    margin-left:62rem;
+}
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
