@@ -1,2 +1,2 @@
 # weather-forecast
- weather forecasting by javascript using api information
+Forecasting weather using api

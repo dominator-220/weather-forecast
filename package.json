@@ -1,0 +1,30 @@
+{
+  "name": "weather-forecast",
+  "version": "1.0.0",
+  "description": "Forecasting weather using api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominator-220/weather-forecast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominator-220/weather-forecast/issues"
+  },
+  "homepage": "https://github.com/dominator-220/weather-forecast#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "oauth": "^0.9.15"
+  }
+}
